@@ -40,14 +40,15 @@ body{
 .d-flex{
     display: flex;
     align-items: center;
-    align-content: center;
+    /* align-content: center; */
+    height: 5.5rem;
 
 }
 
 nav{
 
-    background-color: var(--black);
-    height: 5.5rem;
+    background-color: var(--primary-blue);
+    /* height: 5.5rem; */
 }
 
 nav ul li{
