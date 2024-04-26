@@ -28,26 +28,42 @@ body{
     background-color: var(--background-color);
     font-size:16px;
     font-family: var(--primary-font);
+
 }
+
+/* Global container css start from here  */
 
 
 .container-full{
 
     max-width: 1280px;
     width: 90%;
+    height: 5.5rem;
 }
 
 .d-flex{
     display: flex;
     align-items: center;
-    /* align-content: center; */
-    height: 5.5rem;
+   
+    
 
 }
+
+/* global container css ends here  */
+
+
+
+
+/* Navigation bar css start from here  */
 
 nav{
 
     background-color: var(--primary-blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     /* height: 5.5rem; */
 }
 
@@ -58,3 +74,18 @@ nav ul li{
 
 }
 
+
+
+/* navigation bar css ends here  */
+
+
+/* hero section css start from here  */
+
+.hero{
+
+    background-image: url(../images/home-new-bg-free-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
