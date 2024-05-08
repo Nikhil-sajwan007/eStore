@@ -136,3 +136,25 @@ h1{
     font-weight: 600;
     color: var(--white);
 }
+
+.content p{
+
+    font-weight: 800;
+    color: var(--white);
+    font-size: 1.6rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.btn{
+
+    padding: 1rem 1.8rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border: none;
+    color: var(--black);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
