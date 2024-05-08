@@ -56,6 +56,7 @@ body {
 .d-flex {
     display: flex;
     align-items: center;
+    justify-content: center;
 
 
 
@@ -202,4 +203,13 @@ h1 {
     color: var(--black);
     cursor: pointer;
 
+}
+
+/* logo container css start from here  */
+
+.logo-box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
