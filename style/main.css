@@ -9,7 +9,6 @@
 
 
 :root {
-
     /* GLOBAL COLORS  */
     --primary-blue: #0693e3;
     --secondary-blue: #0084d6;
@@ -20,52 +19,49 @@
 
     /* GLOBAL FONT  */
     --primary-font: "Lato", sans-serif;
-
 }
 
 body {
-
     background-color: var(--background-color);
     font-size: 16px;
     font-family: var(--primary-font);
-
 }
 
 /* Global container css start from here  */
 
 
 .container-boxed {
-
     max-width: 1280px;
     width: 90%;
-    height: 5.5rem;
+    /* height: 5.5rem; */
     color: var(--white);
     border: 1px solid red;
     margin: 0 auto;
 }
 
+.padding-top-bottom{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .container {
-
-
     display: flex;
     height: 5.5rem;
     color: var(--white);
-
 }
 
 .d-flex {
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
-
-
+h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /* global container css ends here  */
-
-
-
 
 /* Navigation bar css start from here  */
 
@@ -127,7 +123,7 @@ nav ul li {
 
 }
 
-.hero::after{
+.hero::after {
     content: "";
     position: absolute;
     top: 0;
@@ -207,7 +203,7 @@ h1 {
 
 /* logo container css start from here  */
 
-.logo-box{
+.logo-box {
 
     display: flex;
     justify-content: center;
@@ -219,32 +215,80 @@ h1 {
 
 
 /* image card start from here  */
+.card {
+
+    padding: 1rem 1rem;
+    color: var(--white);
+    position: relative;
+    padding-top: 25%;
+}
+
+.card::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
 
 
-.card-box{
+
+.card-box {
     border: 1px solid red;
     display: flex;
     column-gap: 15px;
     justify-content: center;
     align-items: center;
-    
+
+
 }
 
-.card-box .card{
+.card-content-1{
+    position: relative;
+    z-index: 10;
+}
+
+
+
+
+
+.card-box .card {
 
     /* border-radius: 8px; */
     border: 1px solid green;
-    
+
+
+}
+
+.card-1 {
+    background-image : url(/images/women-fashion-free-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 
 }
 
 
-.card-box .card-1, .card-2, .card-3{
+.card-2 {
     background-image: url(/images/men-fashion-free-img.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 20%;
+    
+
+}
+
+.card-3 {
+    background-image: url(/images/footwear-free-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
 }
 
 
