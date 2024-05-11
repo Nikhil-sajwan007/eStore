@@ -297,3 +297,33 @@ nav ul li {
 
 
 /* image card ends here  */
+
+
+/* Cta section css start from here  */
+
+
+
+.cta{
+
+    background-image: url(/images/banner-03.jpg);
+    background-position: right top;
+    padding-top: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+.content-2{
+
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    max-width: 30%;
+}
+
+/* cta section css ends here  */
+
