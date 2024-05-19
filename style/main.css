@@ -20,6 +20,9 @@
     /* GLOBAL FONT  */
     --primary-font: "Lato", sans-serif;
 }
+a{
+    text-decoration: none;
+}
 
 body {
     background-color: var(--background-color);
@@ -371,3 +374,18 @@ nav ul li {
 }
 
 /* usp section css ends here  */
+
+/* bottom title  section css start from here  */
+
+.full-border{
+
+    border-bottom: 1px solid var(--dark-gray);
+    border-top: 1px solid var(--dark-gray);
+}
+
+.bottom-title h2{
+    color: var(--black);
+   text-transform: uppercase;
+   font-weight: 600;
+}
+/* bottom title section css ends here  */
