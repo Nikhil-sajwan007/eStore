@@ -324,6 +324,7 @@ nav ul li {
     z-index: 1;
     max-width: 40%;
     padding-top: 3rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     row-gap: 12px;
@@ -344,3 +345,29 @@ nav ul li {
 
 /* cta section css ends here  */
 
+/* usp section css start from here  */
+
+.usp-main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.8rem;
+}
+
+.usp{
+
+    padding: 10px 10px;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.usp p{
+    text-align: center;
+}
+
+/* usp section css ends here  */
