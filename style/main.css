@@ -389,3 +389,32 @@ nav ul li {
    font-weight: 600;
 }
 /* bottom title section css ends here  */
+
+
+/* footer css start from here  */
+
+
+.flex-container {
+
+    display: flex;
+}
+
+.flex-direction-col{
+    flex-direction: column;
+}
+
+
+.footer-menu-1, .footer-menu-2, .footer-menu-3{
+
+    color: var(--black);
+}
+
+.flex-grow-1{
+
+    flex-grow: 1;
+}
+
+.flex-grow-0{
+    flex-grow: 0;
+}
+/* footer css ends here  */
