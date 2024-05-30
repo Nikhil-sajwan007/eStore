@@ -409,12 +409,22 @@ nav ul li {
     color: var(--black);
 }
 
-.flex-grow-1{
-
+.flex-grow{
     flex-grow: 1;
 }
 
-.flex-grow-0{
-    flex-grow: 0;
+.flex-grow-3{
+
+    flex-grow: 3;
+}
+
+footer ul li{
+
+    list-style-type: none;
+}
+
+.margin-bottom-15px{
+
+    margin-bottom: 15px;
 }
 /* footer css ends here  */
