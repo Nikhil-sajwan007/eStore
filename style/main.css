@@ -42,7 +42,7 @@ body {
     width: 90%;
     /* height: 5.5rem; */
     color: var(--white);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@ body {
 
 .container {
     display: flex;
-    height: 5.5rem;
+    /* height: 5.5rem; */
     color: var(--white);
 }
 
@@ -177,7 +177,7 @@ nav ul li {
     margin-top: 1rem;
     border: none;
     color: var(--black);
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: 500;
     transition: 200ms all ease-in-out;
@@ -211,6 +211,20 @@ nav ul li {
     color: var(--black);
     cursor: pointer;
 
+}
+
+.btn-3 {
+
+    border: 2px solid var(--white);
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.btn-3:hover {
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+    border: 2px solid var(--black);
 }
 
 /* logo container css start from here  */
@@ -426,5 +440,23 @@ footer ul li{
 .margin-bottom-15px{
 
     margin-bottom: 15px;
+}
+
+.footer-menu-4 input{
+
+    border: 1px solid gray;
+    padding: 10px 15px;
+    color: var(--dark-gray);
+    font-weight: 600;
+}
+
+.d-flex-flex-start{
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-menu-1 h4{
+    margin-left: 1rem;
 }
 /* footer css ends here  */
