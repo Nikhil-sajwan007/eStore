@@ -444,10 +444,11 @@ footer ul li{
 
 .footer-menu-4 input{
 
-    border: 1px solid gray;
-    padding: 10px 15px;
+    border: 1px solid rgba(128, 128, 128, 0.502);
+    padding: 15px 25px;
     color: var(--dark-gray);
     font-weight: 600;
+    outline: var(--dark-gray);
 }
 
 .d-flex-flex-start{
@@ -458,5 +459,6 @@ footer ul li{
 
 .footer-menu-1 h4{
     margin-left: 1rem;
+    margin-top: 1rem;
 }
 /* footer css ends here  */
