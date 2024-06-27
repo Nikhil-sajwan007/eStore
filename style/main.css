@@ -107,8 +107,15 @@ nav ul li {
     flex-grow: 0;
     font-size: 3rem;
     font-weight: 600;
-    margin-left: 1rem;
+    margin-left: 1.3rem;
 
+}
+
+.logo-footer{
+
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
 }
 
 .left-menu {
@@ -423,13 +430,10 @@ nav ul li {
     color: var(--black);
 }
 
-.flex-grow{
-    flex-grow: 1;
-}
 
-.flex-grow-3{
+.flex-grow-2{
 
-    flex-grow: 3;
+    flex-grow: 2;
 }
 
 footer ul li{
