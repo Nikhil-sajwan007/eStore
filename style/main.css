@@ -461,8 +461,8 @@ footer ul li{
     align-items: flex-start;
 }
 
-.footer-menu-1 h4{
-    margin-left: 1rem;
-    margin-top: 1rem;
+.footer-menu-2 h4, .footer-menu-3 h4{
+    font-size: 22px;
+    font-weight: 400;
 }
 /* footer css ends here  */
