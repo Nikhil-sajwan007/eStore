@@ -441,6 +441,18 @@ footer ul li{
     list-style-type: none;
 }
 
+footer ul li a{
+
+    color: var(--dark-gray);
+    line-height: 2;
+}
+
+footer ul li a:hover{
+
+    color: var(--primary-blue);
+    transition: 0.2s ease-in-out all;
+}
+
 .margin-bottom-15px{
 
     margin-bottom: 15px;
