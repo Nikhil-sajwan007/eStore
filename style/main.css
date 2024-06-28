@@ -488,10 +488,6 @@ footer ul li a:hover{
     color: var(--black);
 }
 
-/* .inner-bottom-bar .social-icon{
-    /* align-items: flex-end; */
-} */
-
 .inner-bottom-bar p{
     color: var(--black);
 }
@@ -503,3 +499,15 @@ footer ul li a:hover{
 /* .fa-brands{
     color: var(--black) !important;
 } */
+
+/* css for slick slider  */
+
+
+.slick-slide{
+    margin: 0 20px;
+}
+
+.padding-top-bottom-min{
+
+    padding-top:80px;
+}
