@@ -478,3 +478,25 @@ footer ul li a:hover{
     font-weight: 400;
 }
 /* footer css ends here  */
+
+/* bottom bar css start from here  */
+
+.inner-bottom-bar{
+    display: flex;
+}
+
+.inner-bottom-bar .social-icon{
+    /* align-items: flex-end; */
+}
+
+.inner-bottom-bar p{
+    color: var(--black);
+}
+
+.padding-tb-bottom-bar{
+    padding: 30px 0;
+}
+
+.social-icon .fa-brands{
+    color: var(--black) !important;
+}
