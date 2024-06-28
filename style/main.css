@@ -322,6 +322,37 @@ nav ul li {
 
 /* image card ends here  */
 
+/* our product section css start from here  */
+
+.heading h2{
+    color: var(--black);
+    text-align: center;
+}
+
+.itemtitle h3{
+    color: var(--black);
+    margin-top: 0.6rem;
+}
+
+.category p{
+    color: var(--black);
+    line-height: 3;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.productItem{
+    border: 1px groove var(--dark-gray);
+    padding: 15px 15px;
+    border-radius: 4px;
+   
+}
+
+/* our product section css ends here  */
+
 
 /* Cta section css start from here  */
 
