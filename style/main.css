@@ -483,11 +483,14 @@ footer ul li a:hover{
 
 .inner-bottom-bar{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
 }
 
-.inner-bottom-bar .social-icon{
+/* .inner-bottom-bar .social-icon{
     /* align-items: flex-end; */
-}
+} */
 
 .inner-bottom-bar p{
     color: var(--black);
@@ -497,6 +500,6 @@ footer ul li a:hover{
     padding: 30px 0;
 }
 
-.social-icon .fa-brands{
+/* .fa-brands{
     color: var(--black) !important;
-}
+} */
