@@ -354,10 +354,15 @@
 
         let displayProduct=async ()=>{
             let product=await fetch('https://fakestoreapi.com/products');
-            let finProduct = await product.json();
+            let finProduct=await product.json();
             console.log(finProduct);
+
         }
+
+        displayProduct();
     </script>
+
+    
 </body>
 
 </html>
