@@ -28,6 +28,7 @@ body {
     background-color: var(--background-color);
     font-size: 16px;
     font-family: var(--primary-font);
+    overflow-x: hidden;
 }
 
 /* Global container css start from here  */
@@ -324,32 +325,45 @@ nav ul li {
 
 /* our product section css start from here  */
 
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
 .heading h2{
     color: var(--black);
     text-align: center;
+    margin-bottom: 3rem;
 }
 
-.itemtitle h3{
+.productitem img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.productitem h3{
     color: var(--black);
     margin-top: 0.6rem;
 }
 
-.category p{
+.productitem p{
     color: var(--black);
-    line-height: 3;
-}
-.product{
-    display: flex;
-    flex-wrap: wrap;
-    
+    line-height: 1.5;
+    margin-top: 0.6rem;
 }
 
-.productItem{
-    border: 1px groove var(--dark-gray);
-    padding: 15px 15px;
-    border-radius: 4px;
-   
+.productitem{    
+flex-basis: 24%;
+margin-bottom: 25px;
+padding: 10px;
+background-color: #ffffffca;
+border-radius: 2px;
+box-shadow: 0px 0px 10px #7c7c7c0c;
 }
+
+
 
 /* our product section css ends here  */
 
