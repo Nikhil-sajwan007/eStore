@@ -361,8 +361,9 @@ flex-basis: 24%;
 margin-bottom: 25px;
 padding: 10px;
 background-color: #ffffffca;
-border-radius: 2px;
-box-shadow: 0px 0px 10px #7c7c7c0c;
+border-radius: 4px;
+box-shadow: 0px 0px 10px #7c7c7c25;
+border: 1px solid #7575752e;
 }
 
 
