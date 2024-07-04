@@ -5,4 +5,18 @@
     justify-content: center;
     align-items: center;
     color: var(--black);
+
+}
+.left-product-image{
+    flex-basis: 50%;
+}
+.left-product-image img{
+    width: 100%;
+
+}
+
+.right-about-product{
+    padding-left: 1.2rem;
+    flex-basis: 50%;
+    align-self: self-start;
 }
