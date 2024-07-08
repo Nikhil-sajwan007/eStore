@@ -26,15 +26,31 @@
 
 .color-varient{
     display: flex;
+    column-gap: 15px;
 }
 
-.color-varient .color-choice-1{
-    border: 1px solid rgb(45, 45, 45);
+.color-varient .color-choice{
+    /* border: 1px solid rgb(45, 45, 45); */
     border-radius: 100%;
-    max-width: 40px;
-    height: 40px;
+    padding: 10px 7px;
+    min-height: 24px;
+    min-width: 24px;
+}
+
+.color-choice-1{
+    background-color: rgb(191, 55, 55);
+}
+
+.color-choice-2{
+    background-color: rgb(0, 146, 129);
+}
+
+.color-choice-3{
+    background-color: rgb(117, 0, 143);
 }
 
 .right-about-product p{
     line-height: 1.8rem;
+    font-size: 19px;
+    font-weight: 500;
 }
