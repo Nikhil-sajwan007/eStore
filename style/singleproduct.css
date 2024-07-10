@@ -65,3 +65,7 @@
     font-size: 19px;
     font-weight: 500;
 }
+
+.color-varient input{
+    display: none;
+}
